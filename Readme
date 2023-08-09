@@ -1,3 +1,8 @@
+#include <iostream>
+#include <fstream>
+#include <iterator>
+#include <set> // para set y multiset
+
 main(){
     
 }
