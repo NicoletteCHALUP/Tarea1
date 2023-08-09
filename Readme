@@ -2,7 +2,25 @@
 #include <fstream>
 #include <iterator>
 #include <set> // para set y multiset
+using namespace std;
 
+int fibonacciRec(int n) {
+    int res;
+    if (n==1) {
+        res = 0;
+    }
+    else {
+        if (n == 2) {
+            res = 1;
+        }
+        else {
+            res = fibonacciRec(n-1)+ fibonacciRec(n - 2);
+        }
+    }
+
+
+    return res;
+}
 main(){
     
 }
