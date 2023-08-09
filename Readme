@@ -22,5 +22,17 @@ int fibonacciRec(int n) {
     return res;
 }
 main(){
+    int n;
+    set<int> arbol;
+    set<int>::iterator res;
     
+    cout << "ingrese un numero entero de varios digitos" << endl;
+    cin >> n;
+    cout << "la suma  de los digitos de " << n << " es " << fibonacciRec(n) << endl;
+   
+    
+    fibonacciRec(n);
+  
+    for (int x = 0; x < 100000; x++)
+        res = arbol.find(x);
 }
